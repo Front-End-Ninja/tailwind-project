@@ -4213,6 +4213,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-hero-pattern {
+  background-image: rgb(21, 21, 17);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -29113,11 +29117,11 @@ video {
 }
 
 .animate-spin {
-  animation: spin 1s linear infinite;
+  animation: spin infinite 5s linear;
 }
 
 .animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation: ping 5s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .animate-pulse {
@@ -32804,6 +32808,10 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-hero-pattern {
+    background-image: rgb(21, 21, 17);
   }
 
   .sm\:from-transparent {
@@ -57662,11 +57670,11 @@ video {
   }
 
   .sm\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin infinite 5s linear;
   }
 
   .sm\:animate-ping {
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    animation: ping 5s cubic-bezier(0, 0, 0.2, 1) infinite;
   }
 
   .sm\:animate-pulse {
@@ -61354,6 +61362,10 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-hero-pattern {
+    background-image: rgb(21, 21, 17);
   }
 
   .md\:from-transparent {
@@ -86212,11 +86224,11 @@ video {
   }
 
   .md\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin infinite 5s linear;
   }
 
   .md\:animate-ping {
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    animation: ping 5s cubic-bezier(0, 0, 0.2, 1) infinite;
   }
 
   .md\:animate-pulse {
@@ -89904,6 +89916,10 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-hero-pattern {
+    background-image: rgb(21, 21, 17);
   }
 
   .lg\:from-transparent {
@@ -114762,11 +114778,11 @@ video {
   }
 
   .lg\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin infinite 5s linear;
   }
 
   .lg\:animate-ping {
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    animation: ping 5s cubic-bezier(0, 0, 0.2, 1) infinite;
   }
 
   .lg\:animate-pulse {
@@ -118454,6 +118470,10 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-hero-pattern {
+    background-image: rgb(21, 21, 17);
   }
 
   .xl\:from-transparent {
@@ -143312,11 +143332,11 @@ video {
   }
 
   .xl\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin infinite 5s linear;
   }
 
   .xl\:animate-ping {
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    animation: ping 5s cubic-bezier(0, 0, 0.2, 1) infinite;
   }
 
   .xl\:animate-pulse {
@@ -147004,6 +147024,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-hero-pattern {
+    background-image: rgb(21, 21, 17);
   }
 
   .\32xl\:from-transparent {
@@ -171862,11 +171886,11 @@ video {
   }
 
   .\32xl\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin infinite 5s linear;
   }
 
   .\32xl\:animate-ping {
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    animation: ping 5s cubic-bezier(0, 0, 0.2, 1) infinite;
   }
 
   .\32xl\:animate-pulse {
